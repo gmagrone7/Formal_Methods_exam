@@ -1,0 +1,855 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text></text>
+    </name>
+    <page id="n0">
+      <place id="intplace_eatingDinner">
+        <name>
+          <text>intplace_eatingDinner</text>
+        </name>
+      </place>
+      <place id="splace_in_watchingtv_2">
+        <name>
+          <text>splace_in_watchingtv_2</text>
+        </name>
+      </place>
+      <place id="splace_in_toilet_1">
+        <name>
+          <text>splace_in_toilet_1</text>
+        </name>
+      </place>
+      <place id="pre_prepareBreakfast">
+        <name>
+          <text>pre_prepareBreakfast</text>
+        </name>
+      </place>
+      <place id="intplace_grooming">
+        <name>
+          <text>intplace_grooming</text>
+        </name>
+      </place>
+      <place id="pre_washing">
+        <name>
+          <text>pre_washing</text>
+        </name>
+      </place>
+      <place id="intplace_prepareLunch">
+        <name>
+          <text>intplace_prepareLunch</text>
+        </name>
+      </place>
+      <place id="pre_outdoors">
+        <name>
+          <text>pre_outdoors</text>
+        </name>
+      </place>
+      <place id="intplace_Start">
+        <name>
+          <text>intplace_Start</text>
+        </name>
+      </place>
+      <place id="intplace_sleeping">
+        <name>
+          <text>intplace_sleeping</text>
+        </name>
+      </place>
+      <place id="intplace_toilet">
+        <name>
+          <text>intplace_toilet</text>
+        </name>
+      </place>
+      <place id="pre_eatingDinner">
+        <name>
+          <text>pre_eatingDinner</text>
+        </name>
+      </place>
+      <place id="pre_prepareLunch">
+        <name>
+          <text>pre_prepareLunch</text>
+        </name>
+      </place>
+      <place id="intplace_shower">
+        <name>
+          <text>intplace_shower</text>
+        </name>
+      </place>
+      <place id="splace_in_prepareDinner_outdoors_0">
+        <name>
+          <text>splace_in_prepareDinner_outdoors_0</text>
+        </name>
+      </place>
+      <place id="splace_in_toilet_0">
+        <name>
+          <text>splace_in_toilet_0</text>
+        </name>
+      </place>
+      <place id="pre_sleeping">
+        <name>
+          <text>pre_sleeping</text>
+        </name>
+      </place>
+      <place id="splace_in_washing_1">
+        <name>
+          <text>splace_in_washing_1</text>
+        </name>
+      </place>
+      <place id="intplace_washing">
+        <name>
+          <text>intplace_washing</text>
+        </name>
+      </place>
+      <place id="splace_in_grooming_0">
+        <name>
+          <text>splace_in_grooming_0</text>
+        </name>
+      </place>
+      <place id="pre_watchingtv">
+        <name>
+          <text>pre_watchingtv</text>
+        </name>
+      </place>
+      <place id="splace_in_watchingtv_0">
+        <name>
+          <text>splace_in_watchingtv_0</text>
+        </name>
+      </place>
+      <place id="pre_grooming">
+        <name>
+          <text>pre_grooming</text>
+        </name>
+      </place>
+      <place id="intplace_eatingBreakfast">
+        <name>
+          <text>intplace_eatingBreakfast</text>
+        </name>
+      </place>
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="pre_prepareDinner">
+        <name>
+          <text>pre_prepareDinner</text>
+        </name>
+      </place>
+      <place id="pre_toilet">
+        <name>
+          <text>pre_toilet</text>
+        </name>
+      </place>
+      <place id="splace_in_washing_0">
+        <name>
+          <text>splace_in_washing_0</text>
+        </name>
+      </place>
+      <place id="intplace_End">
+        <name>
+          <text>intplace_End</text>
+        </name>
+      </place>
+      <place id="intplace_eatingLunch">
+        <name>
+          <text>intplace_eatingLunch</text>
+        </name>
+      </place>
+      <place id="pre_eatingBreakfast">
+        <name>
+          <text>pre_eatingBreakfast</text>
+        </name>
+      </place>
+      <place id="pre_snack">
+        <name>
+          <text>pre_snack</text>
+        </name>
+      </place>
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <place id="splace_in_toilet_2">
+        <name>
+          <text>splace_in_toilet_2</text>
+        </name>
+      </place>
+      <place id="intplace_prepareDinner">
+        <name>
+          <text>intplace_prepareDinner</text>
+        </name>
+      </place>
+      <place id="splace_in_washing_3">
+        <name>
+          <text>splace_in_washing_3</text>
+        </name>
+      </place>
+      <place id="pre_End">
+        <name>
+          <text>pre_End</text>
+        </name>
+      </place>
+      <place id="splace_in_prepareDinner_watchingtv_0">
+        <name>
+          <text>splace_in_prepareDinner_watchingtv_0</text>
+        </name>
+      </place>
+      <place id="pre_shower">
+        <name>
+          <text>pre_shower</text>
+        </name>
+      </place>
+      <place id="intplace_watchingtv">
+        <name>
+          <text>intplace_watchingtv</text>
+        </name>
+      </place>
+      <place id="intplace_outdoors">
+        <name>
+          <text>intplace_outdoors</text>
+        </name>
+      </place>
+      <place id="pre_Start">
+        <name>
+          <text>pre_Start</text>
+        </name>
+      </place>
+      <place id="pre_eatingLunch">
+        <name>
+          <text>pre_eatingLunch</text>
+        </name>
+      </place>
+      <place id="intplace_prepareBreakfast">
+        <name>
+          <text>intplace_prepareBreakfast</text>
+        </name>
+      </place>
+      <transition id="hid_32">
+        <name>
+          <text>hid_32</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="03d8f56c-ea01-48b8-840a-f47df503138d"/>
+      </transition>
+      <transition id="sleeping">
+        <name>
+          <text>sleeping</text>
+        </name>
+      </transition>
+      <transition id="hid_110">
+        <name>
+          <text>hid_110</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="1ff60d0a-f3b6-448c-b9da-8ea03b28edbf"/>
+      </transition>
+      <transition id="hid_15">
+        <name>
+          <text>hid_15</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="d1b28726-7d5c-4981-9f1a-40c8c830afba"/>
+      </transition>
+      <transition id="hid_64">
+        <name>
+          <text>hid_64</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="32afa3b1-71c3-4390-843b-43b8d568f287"/>
+      </transition>
+      <transition id="prepareDinner">
+        <name>
+          <text>prepareDinner</text>
+        </name>
+      </transition>
+      <transition id="hid_58">
+        <name>
+          <text>hid_58</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="6787cbfc-88aa-4f74-8c80-f4c74fa66e43"/>
+      </transition>
+      <transition id="hid_102">
+        <name>
+          <text>hid_102</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="c3c9b9cc-8966-4963-b8ba-bc0fa30fd3da"/>
+      </transition>
+      <transition id="hid_114">
+        <name>
+          <text>hid_114</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="373081b9-29cc-411e-979f-f72d28160ee8"/>
+      </transition>
+      <transition id="hid_61">
+        <name>
+          <text>hid_61</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="91d68c06-68aa-46c5-9d12-96fa0d062738"/>
+      </transition>
+      <transition id="prepareBreakfast">
+        <name>
+          <text>prepareBreakfast</text>
+        </name>
+      </transition>
+      <transition id="hid_5">
+        <name>
+          <text>hid_5</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ac37fa1e-c4e3-4068-8c39-0e2dc674393b"/>
+      </transition>
+      <transition id="hid_81">
+        <name>
+          <text>hid_81</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="276740e3-3010-4324-aaf8-a5b7cad75e35"/>
+      </transition>
+      <transition id="hid_88">
+        <name>
+          <text>hid_88</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="0922fb15-2b0e-4a4c-bbab-812e5a46bcc1"/>
+      </transition>
+      <transition id="hid_70">
+        <name>
+          <text>hid_70</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="5dfc4fbd-b5e1-4d49-bbd0-3e7a0fb3d614"/>
+      </transition>
+      <transition id="hid_74">
+        <name>
+          <text>hid_74</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="d2eb7777-7735-48ac-be9a-4633456d78bb"/>
+      </transition>
+      <transition id="hid_60">
+        <name>
+          <text>hid_60</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="c9e3b2b1-fe90-4cfb-a121-7a1d38061b24"/>
+      </transition>
+      <transition id="snack">
+        <name>
+          <text>snack</text>
+        </name>
+      </transition>
+      <transition id="hid_99">
+        <name>
+          <text>hid_99</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a4549474-75f1-4940-8f74-1c2edc8398eb"/>
+      </transition>
+      <transition id="hid_106">
+        <name>
+          <text>hid_106</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="cd5885a0-9794-4de5-9aac-e930eebb8859"/>
+      </transition>
+      <transition id="hid_31">
+        <name>
+          <text>hid_31</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="dff9ad89-f417-4080-9c1e-36281a191069"/>
+      </transition>
+      <transition id="hid_65">
+        <name>
+          <text>hid_65</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="7304825b-1023-4a4d-a998-bc1034c6643b"/>
+      </transition>
+      <transition id="eatingDinner">
+        <name>
+          <text>eatingDinner</text>
+        </name>
+      </transition>
+      <transition id="hid_90">
+        <name>
+          <text>hid_90</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="3f19d7e3-69d5-4955-9f75-158ae7d1f5fd"/>
+      </transition>
+      <transition id="hid_109">
+        <name>
+          <text>hid_109</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b4e607cc-6d50-4fd3-83c0-fa33c64a4700"/>
+      </transition>
+      <transition id="prepareLunch">
+        <name>
+          <text>prepareLunch</text>
+        </name>
+      </transition>
+      <transition id="hid_84">
+        <name>
+          <text>hid_84</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="91e0cbe9-c7e6-4d2e-9ded-ec378744db6f"/>
+      </transition>
+      <transition id="hid_93">
+        <name>
+          <text>hid_93</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="dc87ff50-9a82-4bc8-9792-246b5213fb74"/>
+      </transition>
+      <transition id="toilet">
+        <name>
+          <text>toilet</text>
+        </name>
+      </transition>
+      <transition id="hid_11">
+        <name>
+          <text>hid_11</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="8258db1d-9760-42b1-9eae-edc303c34b37"/>
+      </transition>
+      <transition id="hid_63">
+        <name>
+          <text>hid_63</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="615ad5aa-bde5-4753-b23b-eaaae3c3b28c"/>
+      </transition>
+      <transition id="hid_27">
+        <name>
+          <text>hid_27</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="94c34c4f-0094-4db9-9246-431ed899ec66"/>
+      </transition>
+      <transition id="hid_112">
+        <name>
+          <text>hid_112</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="b4c21e92-6f22-4883-8a4a-115d4a44d6f4"/>
+      </transition>
+      <transition id="Start">
+        <name>
+          <text>Start</text>
+        </name>
+      </transition>
+      <transition id="hid_78">
+        <name>
+          <text>hid_78</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="0bf90a95-48c9-46f3-9eed-7d37b24eb9e2"/>
+      </transition>
+      <transition id="hid_34">
+        <name>
+          <text>hid_34</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a6fdf1a6-bed5-4f93-8a25-b5cfbd91eb1b"/>
+      </transition>
+      <transition id="hid_49">
+        <name>
+          <text>hid_49</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="9f764d9b-aeef-41dc-977e-cb569f773faa"/>
+      </transition>
+      <transition id="hid_111">
+        <name>
+          <text>hid_111</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="df8ee531-610a-488b-9dd4-788f23f3c7aa"/>
+      </transition>
+      <transition id="shower">
+        <name>
+          <text>shower</text>
+        </name>
+      </transition>
+      <transition id="End">
+        <name>
+          <text>End</text>
+        </name>
+      </transition>
+      <transition id="hid_4">
+        <name>
+          <text>hid_4</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a7b3ba33-0838-496e-b849-e317ef20934d"/>
+      </transition>
+      <transition id="hid_45">
+        <name>
+          <text>hid_45</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="85cde790-4d1d-48f6-a2fd-c52b2f2eda85"/>
+      </transition>
+      <transition id="hid_96">
+        <name>
+          <text>hid_96</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="1dadbad2-f509-4fe9-9639-13ee188be98a"/>
+      </transition>
+      <transition id="hid_105">
+        <name>
+          <text>hid_105</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="8146004d-8356-42cb-9d57-10217800b8b6"/>
+      </transition>
+      <transition id="hid_51">
+        <name>
+          <text>hid_51</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="9231f2b1-2eb7-433a-b601-2cd571484bd5"/>
+      </transition>
+      <transition id="hid_66">
+        <name>
+          <text>hid_66</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="c1edc3b9-271b-436f-ab4d-6c4e8b9e4957"/>
+      </transition>
+      <transition id="washing">
+        <name>
+          <text>washing</text>
+        </name>
+      </transition>
+      <transition id="hid_87">
+        <name>
+          <text>hid_87</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="09be4960-8e29-4583-93ce-521fbbe0de26"/>
+      </transition>
+      <transition id="eatingLunch">
+        <name>
+          <text>eatingLunch</text>
+        </name>
+      </transition>
+      <transition id="hid_39">
+        <name>
+          <text>hid_39</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="7234b221-8623-46a3-b120-71d36e9ad05d"/>
+      </transition>
+      <transition id="hid_98">
+        <name>
+          <text>hid_98</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="8e414869-2fac-4346-b227-370a28512d84"/>
+      </transition>
+      <transition id="hid_26">
+        <name>
+          <text>hid_26</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="1e63e45e-f4c5-4f33-b0a9-d8af5bd0b2c4"/>
+      </transition>
+      <transition id="hid_115">
+        <name>
+          <text>hid_115</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="3e8d59b6-b842-4053-99ca-273f722bec76"/>
+      </transition>
+      <transition id="eatingBreakfast">
+        <name>
+          <text>eatingBreakfast</text>
+        </name>
+      </transition>
+      <transition id="hid_62">
+        <name>
+          <text>hid_62</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="512d92ff-6ad0-4675-b40e-5daae83db3f3"/>
+      </transition>
+      <transition id="hid_82">
+        <name>
+          <text>hid_82</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="afe667e1-18eb-46b2-8daf-eebdfebf2773"/>
+      </transition>
+      <transition id="hid_89">
+        <name>
+          <text>hid_89</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="2634e27b-bca7-4107-b911-aa2b6b9e5023"/>
+      </transition>
+      <transition id="hid_101">
+        <name>
+          <text>hid_101</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="7387c4ef-f803-44b5-889f-6a9c8f462205"/>
+      </transition>
+      <transition id="hid_108">
+        <name>
+          <text>hid_108</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="29f1f7c6-c305-448b-b766-421d3ce25b90"/>
+      </transition>
+      <transition id="hid_75">
+        <name>
+          <text>hid_75</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="dc9ad1aa-e58b-4cc2-997f-092866738d1e"/>
+      </transition>
+      <transition id="watchingtv">
+        <name>
+          <text>watchingtv</text>
+        </name>
+      </transition>
+      <transition id="hid_71">
+        <name>
+          <text>hid_71</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="566ed4aa-c522-44be-bd41-71244d3d4200"/>
+      </transition>
+      <transition id="hid_92">
+        <name>
+          <text>hid_92</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="d68a7122-39c4-4e28-a56b-5922204776aa"/>
+      </transition>
+      <transition id="hid_107">
+        <name>
+          <text>hid_107</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="7c985f2f-452c-4fdc-95ad-38975a2aa2f9"/>
+      </transition>
+      <transition id="hid_25">
+        <name>
+          <text>hid_25</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="2d734760-ec58-42a1-9071-c947091978af"/>
+      </transition>
+      <transition id="hid_69">
+        <name>
+          <text>hid_69</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ee806669-cf27-4628-abb9-b44da7f11996"/>
+      </transition>
+      <transition id="grooming">
+        <name>
+          <text>grooming</text>
+        </name>
+      </transition>
+      <transition id="hid_3">
+        <name>
+          <text>hid_3</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="480bb9cd-b970-4ca9-9ed3-fe9770086aa1"/>
+      </transition>
+      <transition id="hid_116">
+        <name>
+          <text>hid_116</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="883df074-8f4f-4a27-9931-c72caa5c1022"/>
+      </transition>
+      <transition id="hid_76">
+        <name>
+          <text>hid_76</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="bab20e6b-cfb7-4c00-8b56-cb7c830d34d9"/>
+      </transition>
+      <transition id="hid_72">
+        <name>
+          <text>hid_72</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="53eeb8fd-c5f9-4aea-8932-6ddd1fc0f6b3"/>
+      </transition>
+      <transition id="outdoors">
+        <name>
+          <text>outdoors</text>
+        </name>
+      </transition>
+      <transition id="hid_37">
+        <name>
+          <text>hid_37</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="db604871-617e-4823-b135-20a2bfbb541d"/>
+      </transition>
+      <transition id="hid_68">
+        <name>
+          <text>hid_68</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="32279d82-4491-4636-96d8-829773f990f4"/>
+      </transition>
+      <transition id="hid_95">
+        <name>
+          <text>hid_95</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="db0ba7b2-9b6f-4ef8-a8d4-6bb2b238fbf5"/>
+      </transition>
+      <arc id="3135588418560" source="splace_in_toilet_2" target="hid_27"/>
+      <arc id="3135588510208" source="intplace_Start" target="hid_69"/>
+      <arc id="3135588601424" source="hid_101" target="pre_eatingDinner"/>
+      <arc id="3135588541440" source="toilet" target="intplace_toilet"/>
+      <arc id="3135585850896" source="hid_3" target="pre_End"/>
+      <arc id="3135585852432" source="hid_5" target="pre_prepareDinner"/>
+      <arc id="3135588484624" source="pre_eatingBreakfast" target="eatingBreakfast"/>
+      <arc id="3135588509200" source="hid_66" target="splace_in_watchingtv_2"/>
+      <arc id="3135588600848" source="hid_110" target="pre_grooming"/>
+      <arc id="3135588599312" source="hid_72" target="pre_snack"/>
+      <arc id="3135585851424" source="pre_prepareDinner" target="prepareDinner"/>
+      <arc id="3135588421152" source="splace_in_washing_3" target="hid_34"/>
+      <arc id="3135588601328" source="hid_78" target="pre_grooming"/>
+      <arc id="3135588486688" source="prepareDinner" target="intplace_prepareDinner"/>
+      <arc id="3135588526112" source="hid_76" target="splace_in_washing_3"/>
+      <arc id="3135588579360" source="intplace_shower" target="hid_111"/>
+      <arc id="3135588599600" source="hid_81" target="pre_sleeping"/>
+      <arc id="3135585851952" source="splace_in_prepareDinner_watchingtv_0" target="hid_4"/>
+      <arc id="3135588463664" source="pre_prepareBreakfast" target="prepareBreakfast"/>
+      <arc id="3135588600368" source="hid_75" target="pre_sleeping"/>
+      <arc id="3135588623408" source="intplace_grooming" target="hid_5"/>
+      <arc id="3135588598832" source="hid_93" target="pre_washing"/>
+      <arc id="3135588601232" source="hid_111" target="pre_prepareBreakfast"/>
+      <arc id="3135585852480" source="pre_eatingDinner" target="eatingDinner"/>
+      <arc id="3135588417600" source="hid_25" target="pre_toilet"/>
+      <arc id="3135588524096" source="intplace_Start" target="hid_72"/>
+      <arc id="3135588543552" source="washing" target="intplace_washing"/>
+      <arc id="3135588597824" source="hid_116" target="splace_in_washing_1"/>
+      <arc id="3135588599504" source="hid_62" target="pre_prepareDinner"/>
+      <arc id="3135588599888" source="hid_112" target="pre_shower"/>
+      <arc id="3135585849936" source="pre_End" target="End"/>
+      <arc id="3135585876048" source="pre_eatingLunch" target="eatingLunch"/>
+      <arc id="3135588419664" source="pre_washing" target="washing"/>
+      <arc id="3135588561488" source="intplace_watchingtv" target="hid_95"/>
+      <arc id="3135588564704" source="prepareBreakfast" target="intplace_prepareBreakfast"/>
+      <arc id="3135588420192" source="hid_32" target="pre_washing"/>
+      <arc id="3135588508768" source="intplace_eatingDinner" target="hid_65"/>
+      <arc id="3135588563552" source="hid_101" target="splace_in_prepareDinner_outdoors_0"/>
+      <arc id="3135588599408" source="hid_88" target="pre_toilet"/>
+      <arc id="3135588439664" source="splace_in_watchingtv_2" target="hid_39"/>
+      <arc id="3135588483184" source="pre_shower" target="shower"/>
+      <arc id="3135588600944" source="snack" target="pre_snack"/>
+      <arc id="3135588622448" source="hid_92" target="pre_toilet"/>
+      <arc id="3135588510832" source="hid_70" target="splace_in_washing_0"/>
+      <arc id="3135588525680" source="hid_75" target="splace_in_washing_3"/>
+      <arc id="3135585877632" source="hid_15" target="pre_grooming"/>
+      <arc id="3135588418176" source="splace_in_toilet_1" target="hid_26"/>
+      <arc id="3135588511360" source="hid_71" target="splace_in_watchingtv_0"/>
+      <arc id="3135588526208" source="hid_76" target="splace_in_toilet_2"/>
+      <arc id="3135588563072" source="outdoors" target="intplace_outdoors"/>
+      <arc id="3135588623024" source="intplace_watchingtv" target="hid_51"/>
+      <arc id="3135588598928" source="hid_102" target="pre_outdoors"/>
+      <arc id="3135588485776" source="intplace_End" target="hid_58"/>
+      <arc id="3135588510352" source="hid_69" target="splace_in_watchingtv_0"/>
+      <arc id="3135588623504" source="intplace_outdoors" target="hid_51"/>
+      <arc id="3135588600464" source="hid_115" target="pre_shower"/>
+      <arc id="3135585852576" source="splace_in_prepareDinner_watchingtv_0" target="hid_5"/>
+      <arc id="3135588622928" source="intplace_toilet" target="hid_51"/>
+      <arc id="3135588561056" source="watchingtv" target="intplace_watchingtv"/>
+      <arc id="3135588580512" source="intplace_eatingBreakfast" target="hid_114"/>
+      <arc id="3135588578256" source="intplace_prepareLunch" target="hid_108"/>
+      <arc id="3135588438704" source="hid_37" target="pre_watchingtv"/>
+      <arc id="3135588599984" source="hid_76" target="pre_watchingtv"/>
+      <arc id="3135588598448" source="hid_109" target="pre_prepareLunch"/>
+      <arc id="3135588486832" source="intplace_prepareDinner" target="hid_61"/>
+      <arc id="3135588509872" source="Start" target="intplace_Start"/>
+      <arc id="3135588527792" source="intplace_grooming" target="hid_81"/>
+      <arc id="3135588542640" source="intplace_toilet" target="hid_88"/>
+      <arc id="3135588601520" source="hid_95" target="pre_prepareBreakfast"/>
+      <arc id="3135585875136" source="pre_Start" target="Start"/>
+      <arc id="3135588465344" source="pre_prepareLunch" target="prepareLunch"/>
+      <arc id="3135588525248" source="intplace_eatingLunch" target="hid_74"/>
+      <arc id="3135588526784" source="grooming" target="intplace_grooming"/>
+      <arc id="3135588622832" source="intplace_grooming" target="hid_45"/>
+      <arc id="3135588622544" source="hid_108" target="pre_eatingLunch"/>
+      <arc id="3135588601040" source="hid_106" target="pre_prepareBreakfast"/>
+      <arc id="3135588486352" source="intplace_End" target="hid_60"/>
+      <arc id="3135588510928" source="hid_70" target="splace_in_toilet_0"/>
+      <arc id="3135588524240" source="hid_72" target="splace_in_watchingtv_0"/>
+      <arc id="3135588525776" source="hid_75" target="splace_in_toilet_2"/>
+      <arc id="3135588622736" source="hid_84" target="pre_sleeping"/>
+      <arc id="3135585903328" source="pre_sleeping" target="sleeping"/>
+      <arc id="3135588419808" source="hid_31" target="pre_washing"/>
+      <arc id="3135588441824" source="pre_outdoors" target="outdoors"/>
+      <arc id="3135588509920" source="intplace_Start" target="hid_68"/>
+      <arc id="3135588511456" source="hid_71" target="splace_in_toilet_0"/>
+      <arc id="3135585852144" source="splace_in_prepareDinner_outdoors_0" target="hid_4"/>
+      <arc id="3135588599792" source="hid_89" target="pre_washing"/>
+      <arc id="3135588600560" source="hid_70" target="pre_sleeping"/>
+      <arc id="3135588543216" source="intplace_toilet" target="hid_90"/>
+      <arc id="3135588623600" source="intplace_End" target="hid_4"/>
+      <arc id="3135588599024" source="hid_114" target="pre_eatingBreakfast"/>
+      <arc id="3135588578544" source="intplace_prepareLunch" target="hid_109"/>
+      <arc id="3135585852672" source="splace_in_prepareDinner_outdoors_0" target="hid_5"/>
+      <arc id="3135588417792" source="splace_in_toilet_0" target="hid_25"/>
+      <arc id="3135588623120" source="intplace_washing" target="hid_45"/>
+      <arc id="3135588508432" source="intplace_eatingDinner" target="hid_64"/>
+      <arc id="3135588601616" source="hid_105" target="pre_eatingBreakfast"/>
+      <arc id="3135588541200" source="intplace_sleeping" target="hid_84"/>
+      <arc id="3135588600080" source="hid_99" target="pre_watchingtv"/>
+      <arc id="3135588544272" source="intplace_washing" target="hid_93"/>
+      <arc id="3135588420384" source="splace_in_washing_1" target="hid_32"/>
+      <arc id="3135588597920" source="hid_116" target="splace_in_toilet_1"/>
+      <arc id="3135588564848" source="intplace_prepareBreakfast" target="hid_105"/>
+      <arc id="3135588581232" source="intplace_eatingBreakfast" target="hid_116"/>
+      <arc id="3135585875760" source="source0" target="hid_11"/>
+      <arc id="3135588622640" source="hid_82" target="pre_snack"/>
+      <arc id="3135588486448" source="hid_60" target="sink0"/>
+      <arc id="3135588507952" source="intplace_prepareDinner" target="hid_63"/>
+      <arc id="3135588511024" source="hid_70" target="splace_in_grooming_0"/>
+      <arc id="3135588524336" source="hid_72" target="splace_in_toilet_0"/>
+      <arc id="3135588601136" source="hid_66" target="pre_washing"/>
+      <arc id="3135585851712" source="hid_4" target="pre_prepareDinner"/>
+      <arc id="3135585877824" source="splace_in_grooming_0" target="hid_15"/>
+      <arc id="3135588418368" source="hid_27" target="pre_toilet"/>
+      <arc id="3135588511552" source="hid_71" target="splace_in_grooming_0"/>
+      <arc id="3135588577776" source="intplace_prepareBreakfast" target="hid_107"/>
+      <arc id="3135588578112" source="prepareLunch" target="intplace_prepareLunch"/>
+      <arc id="3135588579648" source="intplace_shower" target="hid_112"/>
+      <arc id="3135588600656" source="hid_61" target="pre_eatingDinner"/>
+      <arc id="3135588526928" source="intplace_grooming" target="hid_78"/>
+      <arc id="3135588623696" source="intplace_sleeping" target="hid_49"/>
+      <arc id="3135588563792" source="intplace_outdoors" target="hid_102"/>
+      <arc id="3135588599120" source="hid_107" target="pre_watchingtv"/>
+      <arc id="3135588420960" source="hid_34" target="pre_washing"/>
+      <arc id="3135588464480" source="hid_49" target="pre_prepareBreakfast"/>
+      <arc id="3135588598544" source="hid_64" target="pre_End"/>
+      <arc id="3135588581040" source="hid_115" target="splace_in_toilet_1"/>
+      <arc id="3135585906544" source="pre_toilet" target="toilet"/>
+      <arc id="3135588438896" source="splace_in_watchingtv_0" target="hid_37"/>
+      <arc id="3135588601712" source="hid_116" target="pre_watchingtv"/>
+      <arc id="3135588598640" source="hid_65" target="pre_eatingDinner"/>
+      <arc id="3135588600176" source="hid_69" target="pre_eatingLunch"/>
+      <arc id="3135588623216" source="intplace_watchingtv" target="hid_3"/>
+      <arc id="3135588598352" source="hid_87" target="pre_shower"/>
+      <arc id="3135588561776" source="intplace_watchingtv" target="hid_96"/>
+      <arc id="3135588465536" source="hid_51" target="pre_prepareLunch"/>
+      <arc id="3135588509056" source="intplace_eatingDinner" target="hid_66"/>
+      <arc id="3135588510592" source="intplace_Start" target="hid_70"/>
+      <arc id="3135588580224" source="eatingBreakfast" target="intplace_eatingBreakfast"/>
+      <arc id="3135588580944" source="hid_115" target="splace_in_washing_1"/>
+      <arc id="3135585875856" source="hid_11" target="pre_Start"/>
+      <arc id="3135588599696" source="hid_58" target="pre_End"/>
+      <arc id="3135588508048" source="hid_63" target="sink0"/>
+      <arc id="3135588524432" source="hid_72" target="splace_in_grooming_0"/>
+      <arc id="3135588525968" source="intplace_eatingLunch" target="hid_76"/>
+      <arc id="3135588542352" source="intplace_toilet" target="hid_87"/>
+      <arc id="3135588577488" source="intplace_prepareBreakfast" target="hid_106"/>
+      <arc id="3135588420000" source="splace_in_washing_0" target="hid_31"/>
+      <arc id="3135588442016" source="hid_45" target="pre_outdoors"/>
+      <arc id="3135588485536" source="End" target="intplace_End"/>
+      <arc id="3135588508576" source="hid_64" target="splace_in_watchingtv_2"/>
+      <arc id="3135588511648" source="hid_71" target="splace_in_washing_0"/>
+      <arc id="3135588524960" source="eatingLunch" target="intplace_eatingLunch"/>
+      <arc id="3135588439472" source="hid_39" target="pre_watchingtv"/>
+      <arc id="3135588600752" source="hid_90" target="pre_watchingtv"/>
+      <arc id="3135588623792" source="intplace_outdoors" target="hid_3"/>
+      <arc id="3135588562352" source="intplace_watchingtv" target="hid_98"/>
+      <arc id="3135588599216" source="hid_74" target="pre_eatingLunch"/>
+      <arc id="3135588578736" source="shower" target="intplace_shower"/>
+      <arc id="3135588417984" source="hid_26" target="pre_toilet"/>
+      <arc id="3135588438464" source="pre_watchingtv" target="watchingtv"/>
+      <arc id="3135588580800" source="intplace_eatingBreakfast" target="hid_115"/>
+      <arc id="3135588562640" source="intplace_watchingtv" target="hid_99"/>
+      <arc id="3135588600272" source="hid_68" target="pre_Start"/>
+      <arc id="3135588623312" source="intplace_toilet" target="hid_49"/>
+      <arc id="3135585905104" source="pre_snack" target="snack"/>
+      <arc id="3135588487120" source="intplace_prepareDinner" target="hid_62"/>
+      <arc id="3135588598736" source="hid_98" target="pre_toilet"/>
+      <arc id="3135588528080" source="intplace_grooming" target="hid_82"/>
+      <arc id="3135588542928" source="intplace_toilet" target="hid_89"/>
+      <arc id="3135588561872" source="hid_96" target="splace_in_prepareDinner_watchingtv_0"/>
+      <arc id="3135588563408" source="intplace_outdoors" target="hid_101"/>
+      <arc id="3135588601808" source="hid_110" target="pre_watchingtv"/>
+      <arc id="3135588525536" source="intplace_eatingLunch" target="hid_75"/>
+      <arc id="3135588578928" source="intplace_shower" target="hid_110"/>
+      <arc id="3135588540768" source="sleeping" target="intplace_sleeping"/>
+      <arc id="3135585877488" source="pre_grooming" target="grooming"/>
+      <arc id="3135588508144" source="eatingDinner" target="intplace_eatingDinner"/>
+      <arc id="3135588511216" source="intplace_Start" target="hid_71"/>
+      <arc id="3135588543984" source="intplace_washing" target="hid_92"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>
